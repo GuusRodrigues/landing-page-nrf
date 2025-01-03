@@ -20,7 +20,7 @@ const LandingPage: React.FC = () => {
           <h2 className="text-2xl font-semibold text-blue-700">Baixe Agora</h2>
           <p className="text-md mt-2 text-gray-700">Disponível em formato APK para dispositivos Android.</p>
           <a
-            href="/apk-link"
+            href="https://drive.google.com/file/d/1uB6XuiEAqJTdLsGVnZwF-l7NRqnIR6ga/view?usp=sharing"
             download
             className="mt-4 inline-block bg-blue-700 text-white py-3 px-6 rounded-full shadow-lg hover:bg-blue-800 transition"
           >
