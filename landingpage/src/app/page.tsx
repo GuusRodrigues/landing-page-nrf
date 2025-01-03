@@ -5,13 +5,13 @@ const LandingPage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-white text-gray-900">
       <Head>
-        <title>NRF 2025: Retail&apos;s Big Show - Fecomercio PE</title>
-        <meta name="description" content="Gerencie sua agenda para o evento NRF 2025 com o aplicativo desenvolvido para Fecomercio PE." />
+        <title>Senac Eventos - NRF 2025: Retail&apos;s Big Show</title>
+        <meta name="description" content="Gerencie sua agenda para o evento NRF 2025 com o aplicativo Senac Eventos desenvolvido para Fecomercio PE." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header className="w-full bg-blue-700 text-white py-8 text-center">
-        <h1 className="text-4xl font-bold">NRF 2025: Retail&apos;s Big Show</h1>
+        <h1 className="text-4xl font-bold">Senac Eventos</h1>
         <p className="text-lg mt-2">Sua agenda personalizada para o maior evento de varejo do mundo!</p>
       </header>
 
@@ -40,7 +40,7 @@ const LandingPage: React.FC = () => {
       </main>
 
       <footer className="w-full bg-blue-700 text-white py-4 text-center">
-        <p>&copy; {new Date().getFullYear()} Fecomercio PE. Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Senac PE. Todos os direitos reservados.</p>
         <p>Aplicativo oficial para o evento NRF 2025: Retail&apos;s Big Show.</p>
       </footer>
     </div>
