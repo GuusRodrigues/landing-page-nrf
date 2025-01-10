@@ -35,7 +35,7 @@ const LandingPage: React.FC = () => {
           <h2 className="text-2xl font-semibold text-blue-700 text-center">Como Usar</h2>
           <ol className="list-decimal list-inside mt-6 text-left text-gray-800 space-y-4">
             <li>Acesse o Web App clicando no botão acima.</li>
-            <li>No menu lateral direto do site clique em "Adicionar à tela inicial".</li>
+            <li>No menu lateral direto do site clique em &quot;Adicionar à tela inicial&quot;.</li>
             <li>Faça login e explore as palestras e eventos da NRF 2025.</li>
             <li>Adicione palestras à sua agenda personalizada.</li>
             <li>Visualize e interaja com as publicações na linha do tempo.</li>
