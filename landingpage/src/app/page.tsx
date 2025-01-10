@@ -17,18 +17,11 @@ const LandingPage: React.FC = () => {
 
       <main className="flex-grow w-full max-w-4xl px-6 py-12">
         <section className="bg-blue-100 shadow-md rounded-lg p-6 mb-8 text-center">
-          <h2 className="text-2xl font-semibold text-blue-700">Baixe Agora</h2>
+          <h2 className="text-2xl font-semibold text-blue-700">Acessar Web App</h2>
           <p className="text-md mt-2 text-gray-700">
-            Disponível para dispositivos Android. Usuários de iOS podem acessar nosso Web App!
+            Clique no botão abaixo para acessar o Web App e gerenciar sua agenda para o evento NRF 2025.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <a
-              href="/app.apk"
-              download
-              className="bg-blue-700 text-white py-3 px-6 rounded-full shadow-lg hover:bg-blue-800 transition"
-            >
-              Baixar para Android
-            </a>
             <a
               href="https://missaonrf25.pe.senac.br/admins/login"
               className="bg-green-600 text-white py-3 px-6 rounded-full shadow-lg hover:bg-green-700 transition"
@@ -41,9 +34,9 @@ const LandingPage: React.FC = () => {
         <section className="bg-gray-100 shadow-md rounded-lg p-6">
           <h2 className="text-2xl font-semibold text-blue-700 text-center">Como Usar</h2>
           <ol className="list-decimal list-inside mt-6 text-left text-gray-800 space-y-4">
-            <li>Se você tem Android, baixe o aplicativo e instale-o em seu dispositivo.</li>
-            <li>Usuários de iOS podem acessar o Web App clicando no botão acima.</li>
-            <li>No app ou Web App, explore as palestras e eventos da NRF 2025.</li>
+            <li>Acesse o Web App clicando no botão acima.</li>
+            <li>No menu lateral direto do site clique em "Adicionar à tela inicial".</li>
+            <li>Faça login e explore as palestras e eventos da NRF 2025.</li>
             <li>Adicione palestras à sua agenda personalizada.</li>
             <li>Visualize e interaja com as publicações na linha do tempo.</li>
           </ol>
